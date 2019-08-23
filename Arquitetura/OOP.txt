@@ -1,0 +1,36 @@
+Acoplamento - Uma dependencia direta entre objetos. Quando um muda o outro muda;
+Coesão - Objetos tem unica responsabilidade. Sem depender de outro objetos;
+
+Classe - Represenção digital de algo do mundo real;
+
+Objeto - estancia da Classe;
+
+Estado == Atributo da Classe
+
+Comportamento == Metodos da Classe
+
+
+Abastração - Criar conceitos genericos que possam ser abstraido em outras classes;
+
+Polimorfismo - Se caracteriza quando duas ou mais classes possuem metodos com o mesmo nome, mais com implentações deferentes. 
+				Permite que comportamntos de classes mais abstratas apresentem comportamentos divervos em classes mais concretas que a referenciam;
+
+
+Modificadores de acesso:
+
+Protected - Somente classes derivadas
+
+Internal -  Somente dentro do assembly
+
+Protected Internal (somente metodos) Herança ou interno
+
+Protected Privado (somente metodos) Herdado e estar no mesmo assembly
+
+Private é default
+
+Modificadores de comportamento:
+
+sealed - não pode ser herdada;
+
+abstract - Não pode ser estanciada
+
