@@ -1,0 +1,14 @@
+SRP - Single Responsability Principle - A classe should have just one reason to change. Every class must have only one responsability.
+
+OCP - Open closed Principle - Open for extend, but close for change;
+		When you have to implemente somethink new in some software entite (function, class, methods) it's expected that software entites already 
+		implemented don't have any changes, just extends your functionalities. Through object-oriented programming concept of abstration.
+
+LSP - Liskov Substitution Principle - A subclass have to be substitutible for you superclass;(Inherit). A class square or rectangle most be 
+substituble for a class parallelogram. Ask "if one"
+									
+ISP - Interface Segregation Principle - Many specific interfaces is better than one silgle generic interface.
+
+DIP - Dependency Inversion Principle - depend on an abstraction not an implementation. High-level modules should not depend on low-level modules.
+										The commun method to implemnt DIP is using depency injector. Passing depency injector through contracts (interfaces).
+										Doing this when implentation changes and the contract stay the same you dont need to do anything where the interfaces is called;

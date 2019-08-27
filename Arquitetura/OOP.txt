@@ -1,36 +1,52 @@
-Acoplamento - Uma dependencia direta entre objetos. Quando um muda o outro muda;
-Coesão - Objetos tem unica responsabilidade. Sem depender de outro objetos;
+Coupling - direct dependece between objects. When one changes the other changes too. 
 
-Classe - Represenção digital de algo do mundo real;
+Cohesion - Each object have they own responsability without need other object;
 
-Objeto - estancia da Classe;
+Class - digital representaion about somethink in real world;
 
-Estado == Atributo da Classe
+Objects - instances of classes
 
-Comportamento == Metodos da Classe
+State == Class attribute
+
+Behavior == Class methods
+
+############################# OOP Pillar ############################################
+
+Inheritance - It's when a class enherit behavior and states for another class. This class usually is called super class
+
+Abstration - it's when you a have a class with generecs behavior and states for other class. Abstration is attach with the conception of inherit.
+
+Polymorphism - Allow that behavior of more abstracts classes have diferent behavior in concret classes that have his reference;
+				Ex. When have a derived class that extends a method from a super class and implements diferent behavior
+
+Encapsulation - Uses access modifiers to control access to class's behavior
+
+Interface - its a contract with a class. When is defined methods (without implementation) that have to be implemented in classes that extends it.
+			The interface can be extended in moe that one class. A good practice is inteject the interface as dependecy for classes that extends interfaces.
+			Doing this when the class change you dont need to change they instance
 
 
-Abastração - Criar conceitos genericos que possam ser abstraido em outras classes;
+################################# Access Modifiers
 
-Polimorfismo - Se caracteriza quando duas ou mais classes possuem metodos com o mesmo nome, mais com implentações deferentes. 
-				Permite que comportamntos de classes mais abstratas apresentem comportamentos divervos em classes mais concretas que a referenciam;
+Private - Is default. Accessible only in own escope.
+
+Protected - For derivade classes;
+
+Internal -  Just for the assembly
+
+Protected Internal (only for methods) Inherit or the assembly
+
+Protected Private (somente metodos) Enherit and his own escope
 
 
-Modificadores de acesso:
+################################# Behavior Modifiers
 
-Protected - Somente classes derivadas
+sealed - The class can not be inhereted ;
 
-Internal -  Somente dentro do assembly
+abstract - The class can not be Instanced
 
-Protected Internal (somente metodos) Herança ou interno
 
-Protected Privado (somente metodos) Herdado e estar no mesmo assembly
 
-Private é default
 
-Modificadores de comportamento:
 
-sealed - não pode ser herdada;
-
-abstract - Não pode ser estanciada
 
