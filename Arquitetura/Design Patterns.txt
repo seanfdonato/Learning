@@ -1,0 +1,6 @@
+GoF - Gang of Four
+
+Criational Patterns 
+	#Abstract Factory - 
+	#Factory Method -
+	#Singleton - 
