@@ -5,4 +5,8 @@ Criational Patterns
 	#Factory Method -
 	#Singleton - 
 
-# Abstract Factory  - create more than one Abstract family of prdout. This means that a Abstract Factory is a factory of factories.
+# Abstract Factory  - Create more than one Abstract family of prodout. This means that a Abstract Factory is a factory of factories.
+						Every factory created that implements Abstract Factory is a concret factory. 
+
+# Factory Method - It's Consists in a interface (abstraction) that define a method to create a product. The concret class implements this method 
+					and return concret product.

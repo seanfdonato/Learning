@@ -1,4 +1,5 @@
 ﻿using DesignPartterns.AbstractFactory;
+using DesignPartterns.FactoryMethod;
 using System;
 
 namespace DesignPartterns
@@ -8,6 +9,7 @@ namespace DesignPartterns
         static void Main(string[] args)
         {
             AbstractFactoryStartup.Start();
+            FactoryMethodStartup.Start();
             Console.WriteLine("Hello World!");
         }
     }
