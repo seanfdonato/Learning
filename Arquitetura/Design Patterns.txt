@@ -4,3 +4,5 @@ Criational Patterns
 	#Abstract Factory - 
 	#Factory Method -
 	#Singleton - 
+
+# Abstract Factory  - create more than one Abstract family of prdout. This means that a Abstract Factory is a factory of factories.
