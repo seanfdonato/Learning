@@ -1,5 +1,5 @@
 GoF - Gang of Four
-
+Font: https://www.dofactory.com/net/design-patterns
 Criational Patterns 
 	#Abstract Factory - 
 	#Factory Method -
@@ -10,3 +10,17 @@ Criational Patterns
 
 # Factory Method - It's Consists in a interface (abstraction) that define a method to create a product. The concret class implements this method 
 					and return concret product.
+
+# Singleton - It's a class that implements a propert (usully private) that return a instance of yourself and a method that verify if already have 
+			a instance for this class and return it. This unsure a class only one instance and provide a point of access to it.
+			This  pattern is most used for static object. Other away to implement a singleton object is through dependece injection.
+
+
+Structural Patterns
+
+# Adapter - create a third part class to adaptar the behavior of other class with similiar behavior. 
+			"Convert the interface of a class into another interface clients expect. Adapter
+			lets classes work together that couldn't otherwise because of incompatible interfaces."
+
+#Facade - Create a class to connect a subsystem to external system. This class implement method necessary for consulme external system
+			an inject in internal subsystems
