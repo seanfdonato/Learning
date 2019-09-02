@@ -16,7 +16,10 @@ Criational Patterns
 			This  pattern is most used for static object. Other away to implement a singleton object is through dependece injection.
 
 
-Structural Patterns
+Structural Patterns - 
+	#Adapter
+	#Facade
+	#Composite
 
 # Adapter - create a third part class to adaptar the behavior of other class with similiar behavior. 
 			"Convert the interface of a class into another interface clients expect. Adapter
@@ -24,3 +27,11 @@ Structural Patterns
 
 #Facade - Create a class to connect a subsystem to external system. This class implement method necessary for consulme external system
 			an inject in internal subsystems
+
+#Composite - Compose objects into tree structures to represent part-whole hierarchies. 
+			Composite lets clients treat individual objects and compositions of objects uniformly.
+
+Behavioral Patterns
+	#Command 
+	#Strategy
+	#Observer

@@ -3,6 +3,7 @@ using DesignPartterns.Adapter;
 using DesignPartterns.Facade;
 using DesignPartterns.FactoryMethod;
 using DesignPartterns.Singleton;
+using DesignPartterns.StructuralPatterns.Composite;
 using System;
 
 namespace DesignPartterns
@@ -11,11 +12,12 @@ namespace DesignPartterns
     {
         static void Main(string[] args)
         {
-            AbstractFactoryStartup.Start();
-            FactoryMethodStartup.Start();
-            SingletonStartup.Start();
-            AdapterStartup.Start();
-            FacadeStartup.Start();
+            //AbstractFactoryStartup.Start();
+            //FactoryMethodStartup.Start();
+            //SingletonStartup.Start();
+            //AdapterStartup.Start();
+            //FacadeStartup.Start();
+            CompositeStartup.Start();
             Console.WriteLine("Hello World!");
         }
     }
