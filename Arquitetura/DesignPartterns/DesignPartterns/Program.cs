@@ -1,5 +1,6 @@
 ﻿using DesignPartterns.AbstractFactory;
 using DesignPartterns.Adapter;
+using DesignPartterns.Command;
 using DesignPartterns.Facade;
 using DesignPartterns.FactoryMethod;
 using DesignPartterns.Singleton;
@@ -18,6 +19,7 @@ namespace DesignPartterns
             //AdapterStartup.Start();
             //FacadeStartup.Start();
             CompositeStartup.Start();
+            CommandStartup.Start();
             Console.WriteLine("Hello World!");
         }
     }
