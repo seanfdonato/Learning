@@ -3,15 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './pages/login/login/login.component';
+
+import { ConfigComponent } from './pages/config/config.component';
+import { ConsultComponent } from './pages/consult/consult/consult.component';
+import { LoginModule } from './pages/Auth/login.module';
+import { HttpClientModule } from '@angular/common/http';
+import { ConsultDetailsComponent } from './pages/consult/consult-details/consult-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    ConfigComponent,
+    ConsultComponent,
+    ConsultDetailsComponent
   ],
   imports: [
     BrowserModule,
+    LoginModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
