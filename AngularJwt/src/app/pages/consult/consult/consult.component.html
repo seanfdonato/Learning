@@ -1,1 +1,4 @@
-<p>consult works!</p>
+<p>consult works!
+<button (click)="child.callFromFather()">Calling Childreen Method</button>
+    <app-childreen #child [fatherToChild]="someText" (childToFather)="fromChildreen($event)"></app-childreen>
+</p>

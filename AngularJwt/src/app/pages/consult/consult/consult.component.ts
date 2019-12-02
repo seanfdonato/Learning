@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-consult',
@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./consult.component.css']
 })
 export class ConsultComponent implements OnInit {
-
+  public someText: string;
   constructor() { }
 
   ngOnInit() {
+    this.someText = "Hello World!";
+  }
+
+  fromChildreen(event: any) {
+    console.log(event);
+
+
   }
 
 }
